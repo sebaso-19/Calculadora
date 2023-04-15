@@ -1,0 +1,23 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package session;
+
+import javax.ejb.Local;
+
+/**
+ *
+ * @author ANGRY
+ */
+@Local
+public interface calcbeanLocal {
+
+    Integer addition(int a, int b);
+    Integer restar(int a, int b);
+    Integer multiplicar(int a, int b);
+    Integer modulo(int a, int b);
+    Integer cuadrado(int a);
+    
+}
