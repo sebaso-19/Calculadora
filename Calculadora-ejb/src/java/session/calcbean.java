@@ -46,6 +46,10 @@ public class calcbean implements calcbeanLocal {
     public Integer multiplicar(int a, int b) {
         return a+b;
     }
+        @Override
+    public Integer dividir(int a, int b) {
+        return a/b;
+    }
     
     @Override
     public Integer modulo(int a, int b) {
