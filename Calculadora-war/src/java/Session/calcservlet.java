@@ -49,13 +49,15 @@ public class calcservlet extends HttpServlet {
         if(opcion.equals("ADD")){
             out.println("<h1>SUMA entre" + num1 + "+"+ num2 +"=" + calcbean.addition(num1, num2) + "</h1>");  
         }else if(opcion.equals("RESTAR")){
-            out.println("<h1>RESTAR = " + calcbean.restar(num1, num2) + "</h1>");  
+            out.println("<h1>RESTAR entre " + num1 + "+"+ num2 + "=" + calcbean.restar(num1, num2) + "</h1>");  
         }else if(opcion.equals("MULTIPLICAR")){
-            out.println("<h1>MULTIPLICAR = " + calcbean.multiplicar(num1, num2) + "</h1>");  
+            out.println("<h1>MULTIPLICAR entre " + num1 + "+"+ num2 + "=" + calcbean.multiplicar(num1, num2) + "</h1>");  
+        }else if(opcion.equals("DIVIDIR")){
+            out.println("<h1>DIVIDIR entre " + num1 + "+"+ num2 + "=" + calcbean.multiplicar(num1, num2) + "</h1>");  
         }else if(opcion.equals("MODULO")){
-            out.println("<h1>MODULO = " + calcbean.modulo(num1, num2) + "</h1>");  
+            out.println("<h1>MODULO entre " + num1 + "+"+ num2 + "=" + calcbean.modulo(num1, num2) + "</h1>");  
         }else if(opcion.equals("CUADRADO")){
-            out.println("<h1>CUADRDADO = " + calcbean.cuadrado(num1) + "</h1>");  
+            out.println("<h1>CUADRDADO entre " + num1 + "+"+ num2 + "=" + calcbean.cuadrado(num1) + "</h1>");  
         }
             out.println("</body>");
             out.println("</html>");
