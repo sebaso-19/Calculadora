@@ -17,6 +17,7 @@ public interface calcbeanLocal {
     Integer addition(int a, int b);
     Integer restar(int a, int b);
     Integer multiplicar(int a, int b);
+    Integer dividir(int a, int b);
     Integer modulo(int a, int b);
     Integer cuadrado(int a);
     
