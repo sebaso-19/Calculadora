@@ -17,7 +17,8 @@
                 <td><input type="text" name="t2" /></td>
             <input type="submit" name="action" value="ADD" />
             <input type="submit" name="action" value="RESTAR" />
-            <input type="submit" name="action" value="MULTIPLICAR" />
+            <input type="submit" name="action" value="MULTIPLICAR" />            
+            <input type="submit" name="action" value="DIVIDIR" />
             <input type="submit" name="action" value="MODULO" />
             <input type="submit" name="action" value="CUADRADO" />
         </form> 
