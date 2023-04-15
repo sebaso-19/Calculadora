@@ -47,7 +47,7 @@ public class calcservlet extends HttpServlet {
             int num2 = Integer.parseInt(request.getParameter("t2"));
             String opcion = request.getParameter("action");
         if(opcion.equals("ADD")){
-            out.println("<h1>SUMA = " + calcbean.addition(num1, num2) + "</h1>");  
+            out.println("<h1>SUMA entre" + num1 + "+"+ num2 +"=" + calcbean.addition(num1, num2) + "</h1>");  
         }else if(opcion.equals("RESTAR")){
             out.println("<h1>RESTAR = " + calcbean.restar(num1, num2) + "</h1>");  
         }else if(opcion.equals("MULTIPLICAR")){
